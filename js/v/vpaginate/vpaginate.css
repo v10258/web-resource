@@ -1,0 +1,95 @@
+.ui-paginate-wrap {
+	text-align: center;
+	overflow: hidden;
+	zoom: 1;
+}
+.ui-paginate:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0;
+}
+.ui-paginate {
+	zoom: 1;
+	font-family: "microsoft yahei";
+	font-size: 12px;
+	display: inline-block;
+	height: auto;
+	overflow: hidden;
+	margin-top: 15px;
+	text-align: center;
+}
+.ui-paginate, .ui-paginate a {
+	color: #333;
+}
+.ui-paginate .p-elem {
+	display: inline-block;
+	margin: 0 4px;
+	border-radius: 3px;
+	vertical-align: middle;
+	text-align: center;
+	/*min-width: 30px;
+	height: 30px;
+	line-height: 30px;*/
+	padding: 10px 20px;
+	_width: expression(this.width > 30 ? "30px":"");
+}
+.ui-paginate a.p-item{
+	/*border: solid 1px #dddddd; */
+	color: #333;
+	border-radius: 2px;
+	text-decoration: none;
+}
+.ui-paginate a.p-item:hover, 
+.ui-paginate .p-prev:hover, 
+.ui-paginate .p-next:hover, 
+.ui-paginate .p-first:hover, 
+.ui-paginate .p-last:hover {
+	border-color: #eaeaea;
+	background-color: #eaeaea;
+	text-decoration: none;
+	color: #333;
+}
+.ui-paginate .current {
+	border-color: #e84847;
+	background-color: #e84847;
+	color: #fff;
+	cursor: default;
+}
+.ui-paginate .etc {
+	font-family: simsun, "microsoft yahei";
+	color: #ccc;
+}
+.ui-paginate .p-total, .ui-paginate .p-item-go {
+	color: #666;
+}
+.ui-paginate .p-ipt-go, .ui-paginate .p-btn-go {
+	height: 22px;
+	line-height: 22px;
+	vertical-align: top;
+	padding: 0;
+	margin: 3px 5px 0;
+	text-align: center;
+}
+.ui-paginate .p-ipt-go {
+	width: 48px;
+	border: solid 1px #ddd;
+}
+.ui-paginate .p-btn-go {
+	display: inline-block;
+	color: #ccc;
+	width: 38px;
+	border: solid 1px #ddd;
+	background: #eaeaea;
+	text-decoration: none;
+	border-radius: 2px;
+}
+/* .ui-paginate .p-prev, .ui-paginate .p-next, .ui-paginate .p-first, .ui-paginate .p-last, .ui-paginate .p-prev-disable, .ui-paginate .p-next-disable {
+	width: 66px;
+} */
+.ui-paginate .p-prev-disable, 
+.ui-paginate .p-next-disable {
+	cursor: default;
+	color: #ccc;
+}

@@ -1,0 +1,126 @@
+/*!
+ * base_m.css
+ * @date 2015.1.29
+ * @author dianhun.com v10258@qq.com
+ * @version 0.0.1
+ */
+
+blockquote, body, button, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, hr, input, legend, li, ol, p, pre, td, textarea, th, ul { margin: 0; padding: 0}
+html {font-size: 10px }
+body { font: 1.4rem/1.5 Helvetica,sans-serif}
+h1, h2, h3, h4, h5, h6 { font-size: 100%}
+i, em { font-style: normal}
+small { font-size: 1.2rem}
+ol, ul { list-style: none}
+a { text-decoration: none; outline:none}
+a:hover { text-decoration: underline}
+fieldset, img { border: 0}
+table { border-collapse: collapse; border-spacing: 0}
+img { vertical-align: top}
+a, button, input, select, textarea{ outline: none}
+
+
+/* positioning */
+.posr { position: relative}
+.posa { position: absolute}
+.fl { float: left; _display: inline}
+.fr { float: right; _display: inline}
+
+/* box-model */
+.hide { display: none; }
+.block { display:block; }
+.inblock { display: inline-block; *display: inline; *zoom: 1; }
+
+.bfc { overflow: hidden; *zoom: 1}
+.ellipsis { overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+.clear { clear:both; height:0; line-height:0; font-size:0; visibility:hidden; }
+.clearfix{*zoom:1}
+.clearfix:before,
+.clearfix:after{display:table; content:""}
+.clearfix:after{clear:both}
+
+.mt5 { margin-top: 5rem !important}
+.mt10 { margin-top: 10rem !important}
+.mt15 { margin-top: 15rem !important}
+.mt20 { margin-top: 20rem !important}
+
+.mr5 { margin-right: 5rem !important}
+.mr10 { margin-right: 10rem !important}
+.mr15 { margin-right: 15rem !important}
+.mr20 { margin-right: 20rem !important}
+
+.mb5 { margin-bottom: 5rem !important}
+.mb10 { margin-bottom: 10rem !important}
+.mb15 { margin-bottom: 15rem !important}
+.mb20 { margin-bottom: 20rem !important}
+
+.ml5 { margin-left: 5rem !important}
+.ml10 { margin-left: 10rem !important}
+.ml15 { margin-left: 15rem !important}
+.ml20 { margin-left: 20rem !important}
+
+.p5 { padding: 5rem !important; }
+.p10 { padding: 10rem !important; }
+.p15 { padding: 15rem !important; }
+.p20 { padding: 20rem !important; }
+
+.pt5 { padding-top: 5rem !important; }
+.pt10 { padding-top: 10rem !important; }
+.pt15 { padding-top: 15rem !important; }
+.pt20 { padding-top: 20rem !important; }
+
+.pl5 { padding-left: 5rem !important; }
+.pl10 { padding-left: 10rem !important; }
+.pl15 { padding-left: 15rem !important; }
+.pl20 { padding-left: 20rem !important; }
+
+.rc3 { border-radius: 3rem}
+.rc5 { border-radius: 5rem}
+.rc10 { border-radius: 10rem}
+
+/* typography */
+.fs12 { font-size: 1.2rem; }
+.fs14 { font-size: 1.4rem; }
+.fs16 { font-size: 1.6rem; }
+.fs18 { font-size: 1.8rem; }
+.fs20 { font-size: 2.0rem; }
+.fs24 { font-size: 2.4rem; }
+.lineh1{ line-height: 1;}
+.lineh12{ line-height: 1.2;}
+.lineh2{ line-height: 2;}
+.yahei { font-family: "Hiragino Sans GB","Microsoft Yahei"; }
+.songti { font-family: "Hiragino Sans GB","\5b8b\4F53"; }
+.bold { font-weight: bold;}
+.indent {text-indent: 2em;}
+.br {word-wrap:break-word; word-break:break-all;}
+.nobr {white-space: nowrap;}
+
+.vtop {vertical-align: top;}
+.vmid {vertical-align: middle;}
+.vbot {vertical-align: bottom;}
+.tcenter { text-align: center; }
+.tleft { text-align: left; }
+.tright { text-align: right; }
+
+.red { color:red; }
+.black { color: black; }
+.color3 { color: #333; }
+.color6 { color:#666; }
+.color9 { color:#999}
+.colorc { color:#ccc; }
+
+.row:after{content:"";display:table;clear:both;}
+.row .col{float:left; *display: inline; min-height: 1rem; }
+
+/* html5 */
+article,aside,dialog,figcaption,figure,footer,header,hgroup,main,nav,section{ display:block}
+mark{ background:#FF0; color:#000}
+input[type="button"],input[type="submit"]{ -webkit-appearance:none; }
+
+/* animate */
+.trans { -webkit-transition: all .3s ease-out; transition: all .3s ease-out; }
+.anim { -webkit-animation-duration: 1s; -webkit-animation-fill-mode: both; animation-duration: 1s; animation-fill-mode: both; }
+.anim.fast { -webkit-animation-duration: .5s; animation-duration: .5s; }
+.anim.slow { -webkit-animation-duration: 1.5s; animation-duration: 1.5s;}
+.anim.infinite {-webkit-animation-iteration-count: infinite; animation-iteration-count: infinite; }
+.anim.hinge {  -webkit-animation-duration: 2s; animation-duration: 2s; }

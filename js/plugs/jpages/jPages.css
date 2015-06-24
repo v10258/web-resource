@@ -1,0 +1,13 @@
+/* jPages */
+.ui-paging { margin: 15px 0; text-align: center; }
+.ui-paging a { margin: 0 5px; font-size: 12px; cursor: pointer; color: #fff;  }
+.ui-paging a:hover { background-color: #222; color: #fff; }
+.ui-paging a.jp-previous,
+.ui-paging a.jp-next { padding:2px 5px; background-color: #f92183;}
+.ui-paging a.jp-previous { margin-right: 15px; }
+.ui-paging a.jp-next { margin-left: 15px; }
+.ui-paging a.jp-current, a.jp-current:hover { color: #FF4242; font-weight: bold; }
+.ui-paging a.jp-disabled, a.jp-disabled:hover { text-decoration: none; background: #b8b8b8 !important; color: #fff; }
+.ui-paging a.jp-current, a.jp-current:hover,
+.ui-paging a.jp-disabled, a.jp-disabled:hover { cursor: default; background: none; }
+.ui-paging span { margin: 0 5px; }

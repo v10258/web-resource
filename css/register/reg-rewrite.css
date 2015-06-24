@@ -1,0 +1,15 @@
+body{ font-family: "\5B8B\4F53"; color: #ffba00;}
+#quickReg  .title {font-weight:bold;}
+#quickReg .input { width: 240px; height: 20px; margin-right: 5px; line-height: 20px; border: 1px solid #ffba00; color: #fff; background-color: transparent; outline:none; }
+#error { line-height: 1.2;height: 28px; padding: 0; background-color: transparent; }
+#errorMsg { padding: 0; border: none; color: #f60; text-align: center; background-color: transparent; }
+#checkInfo{ vertical-align: middle; margin-top: -2px; margin-right: 6px; }
+#quickReg #txtTgyIdNumber{color: #fff;}
+#txtTgyIdNumber + span{ color: #807c71; }
+#tgm {display:none;}
+#subbtn {width: 190px;height: 28px; font-family: "Hiragino Sans GB","Microsoft Yahei"; line-height: 28px;border-radius: 16px;}
+a { color: #ffba00; }
+::-webkit-input-placeholder { color: #eee; }
+:-moz-placeholder { color: #eee; }
+::-moz-placeholder { color: #eee; }
+:-ms-input-placeholder {color: #eee;}
