@@ -9,7 +9,7 @@
 <dt>img</dt>
 <dd>common</dd>
 <dd>*业务快名称</dd>
-<dd>*业务快名称</dd>
+<dd>...</dd>
 <dt>js</dt>
 <dd>core - 为核心基类</dd>
 <dd>ctrl - 为业务组件</dd>
