@@ -10,4 +10,9 @@
 区块引用 Blockquotes
 
 这是一个普通段落： 
-    `这是一个代码区块。`
+`<p>Here is an example of AppleScript:</p>
+
+<pre><code>tell application "Foo"
+    beep
+end tell
+</code></pre>`
