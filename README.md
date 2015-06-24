@@ -24,3 +24,7 @@
 可以选择性的加上 title 属性：
 
 This is an [example link](http://example.com/ "With a Title")
+
+这是一个普通段落：
+
+    这是一个代码区块。
