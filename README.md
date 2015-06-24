@@ -30,6 +30,7 @@ This is an [example link](http://example.com/ "With a Title")
     var dataset = [];
     var strHtml = '';
     var $elem;
+    
     $('.detail-body table tbody tr').each(function(i, n){
         $elem = $(n);
         dataset[i] = {};
@@ -37,13 +38,16 @@ This is an [example link](http://example.com/ "With a Title")
         dataset[i].name = $elem.find('td:eq(1)').text();
         dataset[i].salary = $elem.find('td:eq(2)').text();
     })
+    
     dataset.sort(function(a,b){
         console.log(a,b, a.salary - b.salary);
         
         return b.salary - a.salary;
     })
+    
     $.each(dataset, function(i, n){
         console.log(n)
         strHtml += '<tr><td>'+ n.jobNum +'</td><td>'+ n.name +'</td><td>'+ n.salary +'</td></tr>';
     })
+    
     $('.detail-body table tbody).html(strHtml)
