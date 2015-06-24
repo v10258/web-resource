@@ -30,9 +30,21 @@ pub_init.css 为具体业务组件依赖样式
 * core  
     包括jquery， require， zepto
 * ctrl
- 
     包括public_module_init，jweixin-1.0.0，intro 公共引导，footer 公共尾等
-* plugs
+* plugs  
+    收录了 artDialog 弹出框  
+    artTemplate 前端模板
+    backbone MVC
+    flexslider 幻灯片
+    jpages 分页
+    jplayer 播放器
+    jscrollpane 自定义滚动
+    lazyload 延迟加载
+    lightbox 大图预览
+    masonry 瀑布流
+    menu-anim 亚马逊 行为预判 菜单
+    tipsy   tooltip 提示
+    validation 表单验证
 * utils
 * v
 
