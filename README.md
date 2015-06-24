@@ -51,7 +51,17 @@ pub_init.css 为具体业务组件依赖样式
     tipsy   tooltip 提示  
     validation 表单验证  
 
-* utils
+* utils  收录
+    ZeroClipboard 复制  
+    respond media query 兼容  
+    transition 判断css动画兼容  
+    touch zepto 触屏事件  
+    json2 json支持  
+    jquery.mousewheel 鼠标滚动事件  
+    jquery.easing 动画效果拓展  
+    jquery.cookie cookie 操作    
+    html5shiv html5 语义化标签兼容  
+    hammer 全功能触屏操作
 * v
 
 ### 其他
