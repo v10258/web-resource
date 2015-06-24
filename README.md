@@ -42,7 +42,6 @@ This is an [example link](http://example.com/ "With a Title")
         
         return b.salary - a.salary;
     })
-    
     $.each(dataset, function(i, n){
         console.log(n)
         strHtml += '<tr><td>'+ n.jobNum +'</td><td>'+ n.name +'</td><td>'+ n.salary +'</td></tr>';
