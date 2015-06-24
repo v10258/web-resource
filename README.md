@@ -54,12 +54,6 @@ pub_init.css 为具体业务组件依赖样式
 * utils
 * v
 
-### 简介
-
-  
-  
-
-
 ### 其他
 根据项目需要推荐使用 normalize.css、 bootstrap、animate.css 等组件
 
