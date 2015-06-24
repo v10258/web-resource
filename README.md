@@ -15,5 +15,5 @@
 <dd>ctrl - 为业务组件</dd>
 <dd>plugs - 为外部插件</dd>
 <dd>utils - 为工具类</dd>
-<dd>v - 为自写组件件</dd>
+<dd>v - 为自写常用组件</dd>
 <dl>
