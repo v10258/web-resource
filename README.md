@@ -31,7 +31,7 @@ pub_init.css 为具体业务组件依赖样式
 * 
     包括jquery， require， zepto
 * ctrl
-* 
+ 
     包括public_module_init，jweixin-1.0.0，intro 公共引导，footer 公共尾等
 * plugs
 * utils
