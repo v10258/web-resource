@@ -38,3 +38,17 @@ Markdown 也允许你偷懒只在整个段落的第一行最前面加上 >
 > 给出一些例子代码：
 > 
 >     return shell_exec("echo $input | $markdown_script");
+
+##列表
+
+*red
+*Green
+*Blue
+
++red
++green
++blue
+
+-a
+*b
++d
