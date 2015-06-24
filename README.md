@@ -17,3 +17,10 @@
 <dd>utils - 为工具类</dd>
 <dd>v - 为自写常用组件</dd>
 <dl>
+
+### 其他
+根据项目需要推荐使用 normalize.css、 bootstrap、animate.css 等组件
+
+js部分推荐使用模块化加载
+
+自动化构建使用 grunt 或 gulp
