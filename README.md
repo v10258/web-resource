@@ -56,7 +56,6 @@ Markdown 也允许你偷懒只在整个段落的第一行最前面加上 >
 5. e
 6. f
 
-###对齐
 *   Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
     Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus. 
 *   Donec sit amet nisl. Aliquam semper ipsum sit amet velit. 
