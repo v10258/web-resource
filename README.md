@@ -27,14 +27,17 @@ animate.css 包括最常用的数十种css3动画效果
 pub_init.css 为具体业务组件依赖样式
 
 ### js部分
-* core  
-    包括jquery， require， zepto
+* core  包括  
+    jquery， require， zepto
 
-* ctrl
-    包括public_module_init，jweixin-1.0.0，intro 公共引导，footer 公共尾等
+* ctrl  包括  
+    public_module_init
+    jweixin-1.0.0
+    intro 公共引导
+    footer 公共尾等
 
-* plugs  
-    收录了 artDialog 弹出框  
+* plugs  收录  
+    artDialog 弹出框  
     artTemplate 前端模板  
     backbone MVC  
     flexslider 幻灯片  
