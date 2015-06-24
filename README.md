@@ -22,8 +22,8 @@
 <dl>
 
 ### css部分
-commom 包括 normalize.css 本土化重置加入常用工具类等构成 base.css
-animate.css 包括最常用的数十种css3动画效果
+commom 包括 normalize.css 本土化重置加入常用工具类等构成 base.css  
+animate.css 包括最常用的数十种css3动画效果  
 pub_init.css 为具体业务组件依赖样式
 
 ### js部分
