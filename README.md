@@ -27,8 +27,7 @@ animate.css 包括最常用的数十种css3动画效果
 pub_init.css 为具体业务组件依赖样式
 
 ### js部分
-* core
-* 
+* core  
     包括jquery， require， zepto
 * ctrl
  
