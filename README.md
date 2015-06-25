@@ -51,7 +51,7 @@ pub_init.css 为具体业务组件依赖样式
     tipsy   tooltip 提示  
     validation 表单验证  
 
-* utils  收录
+* utils  收录  
     ZeroClipboard 复制  
     respond media query 兼容  
     transition 判断css动画兼容  
